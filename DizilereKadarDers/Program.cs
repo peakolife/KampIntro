@@ -16,19 +16,19 @@ namespace DizilereKadarDers
             Console.Clear();
             if(Sayi1Gir > Sayi2Gir)
             {
-                Console.WriteLine("1.Girdiğiniz sayı 2.girdiğiniz sayıdan büyüktür.");
+                Console.WriteLine("\n\n1.Girdiğiniz sayı 2.girdiğiniz sayıdan büyüktür.\n\n");
             }
             else if(Sayi1Gir<Sayi2Gir)
             {
-                Console.WriteLine("2.Girdiğiniz sayı ilk girdiğiniz sayıdan büyüktür.");
+                Console.WriteLine("\n\n2.Girdiğiniz sayı ilk girdiğiniz sayıdan büyüktür.\n\n");
             }
             else if(Sayi1Gir == Sayi2Gir)
             {
-                Console.WriteLine("Girdiğiniz sayılar eşittir.");
+                Console.WriteLine("\n\nGirdiğiniz sayılar eşittir.\n\n");
             }
             else
             {
-                Console.WriteLine("Yanlış bir değer girdiniz.");
+                Console.WriteLine("\nYanlış bir değer girdiniz.\n");
             }
 
         }

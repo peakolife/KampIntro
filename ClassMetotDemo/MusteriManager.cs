@@ -6,13 +6,13 @@ namespace ClassMetotDemo
 {
     class MusteriManager
     {
-        public static void ekle()
+        public void ekle(Musteri mustericik)
         {
-            Console.WriteLine("başarıyla eklendi.!");
+            Console.WriteLine(mustericik.Adi + " başarıyla eklendi.!");
         }
-        public static void sil()
+        public void sil(Musteri mustericik)
         {
-            Console.WriteLine("başarıyla silindi.");
+            Console.WriteLine(mustericik.Adi + " başarıyla silindi.");
         }
         
     }

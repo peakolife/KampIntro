@@ -32,9 +32,9 @@ namespace ClassMetotDemo
             {
                 Console.WriteLine(musteriler[i].Id.ToString()+" " + musteriler[i].Adi + " " + musteriler[i].Soyadi + " " + musteriler[i].Numara.ToString());
             }
-
-            MusteriManager.ekle();
-            MusteriManager.sil();
+            MusteriManager musteri = new MusteriManager();
+            musteri.ekle(musteri1);
+            musteri.sil(musteri1);
 
             Console.ReadLine();
         }
