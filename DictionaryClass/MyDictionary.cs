@@ -7,9 +7,12 @@ namespace DictionaryClass
    
     public class MyDictionary<TKey, TValue>
     {
+        // in the dictionary class we had key and value pair so im gonna make type of my variable as TKey and TValue
         
         TKey[] keys;
         TValue[] values;
+        
+        //im creating constructor to new my arrays.
         public MyDictionary() 
         {
             Console.WriteLine("im going to create my array in Constructor ");
