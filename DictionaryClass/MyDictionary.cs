@@ -12,12 +12,13 @@ namespace DictionaryClass
         TValue[] values;
         public MyDictionary() 
         {
-            Console.WriteLine("we are going to create our array in Constructor ");
+            Console.WriteLine("im going to create my array in Constructor ");
             keys = new TKey[0];
             values = new TValue[0];
         }
         public void Add(TKey key, TValue value)
         {
+        //im creating temporary variables inside of the method. This way its not going to cover too much memory unless its called by the user.--i assume of course--
             TKey[] tempKey = keys;
             TValue[] tempValue = values;
             keys = new TKey[keys.Length + 1];
@@ -34,6 +35,7 @@ namespace DictionaryClass
             keys[keys.Length - 1] = key;
             values[values.Length - 1] = value;
         }
+        //im adding enum to use foreach loop.
         public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
         {
             for (int i = 0; i < keys.Length; i++)
