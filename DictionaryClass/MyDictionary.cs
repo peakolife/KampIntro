@@ -12,7 +12,7 @@ namespace DictionaryClass
         TKey[] keys;
         TValue[] values;
         
-        //im creating constructor to new my arrays.
+        //im creating constructor to have a place in memory for my arrays.
         public MyDictionary() 
         {
             Console.WriteLine("im going to create my array in Constructor ");
