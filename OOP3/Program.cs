@@ -23,7 +23,7 @@ namespace OOP3
             BasvuruManager basvuruManager = new BasvuruManager();
             //basvuruManager.BasvuruYap(ihtiyacKrediManager, databaseLoggerService);
             //basvuruManager.BasvuruYap(ihtiyacKrediManager, new DatabaseLoggerService); // it could be that way too.
-            basvuruManager.BasvuruYap(new EsnasKredisi(), new List<ILoggerService> { new SmsLoggerService(), new DatabaseLoggerService()});
+            basvuruManager.BasvuruYap(new EsnafKredisi(), new List<ILoggerService> { new SmsLoggerService(), new DatabaseLoggerService()});
             //List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager , tasitKrediManager }; // calculating more than one credits with List :-)
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
             
